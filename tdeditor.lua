@@ -59,7 +59,7 @@ function se.onShowTextDraw(id, data)
 		data.position.y = data.position.y - 0
 	end
 	
-	if id == 206 then -- odometer
+	if id == 2065 then -- odometer
 		data.position.x = data.position.x + 50
 		data.position.y = data.position.y - 15
 		data.letterHeight = data.letterHeight / 1.09
