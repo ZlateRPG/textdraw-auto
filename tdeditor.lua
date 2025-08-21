@@ -30,7 +30,7 @@ function se.onShowTextDraw(id, data)
 		data.position.y = data.position.y - 9
 	end
 
-	if id == 2071 then -- your name
+	if id == 201 then -- your name
 		data.position.x = data.position.x - 10
 		data.position.y = data.position.y - 9
 	end
