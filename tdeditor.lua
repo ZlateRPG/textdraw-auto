@@ -25,7 +25,7 @@ function se.onShowTextDraw(id, data)
 		data.position.y = data.position.y - 900
 	end
 
-	if id == 11 then -- server name
+	if id == 110 then -- server name
 		data.position.x = data.position.x - 10
 		data.position.y = data.position.y - 9
 	end
