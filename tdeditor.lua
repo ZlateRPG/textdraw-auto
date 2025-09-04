@@ -10,22 +10,22 @@ end
 
 
 function se.onShowTextDraw(id, data)
-	if id == 100 then -- data
+	if id == 103 then -- data
 		data.position.x = data.position.x - 500
 		data.position.y = data.position.y - 900
 	end
 
-	if id == 99 then -- ora
+	if id == 104 then -- ora
 		data.position.x = data.position.x - 500
 		data.position.y = data.position.y - 900
 	end
 
-	if id == 98 then -- seconds
+	if id == 105 then -- seconds
 		data.position.x = data.position.x - 500
 		data.position.y = data.position.y - 900
 	end
 
-	if id == 110 then -- server name
+	if id == 115 then -- server name
 		data.position.x = data.position.x - 10
 		data.position.y = data.position.y - 9
 	end
