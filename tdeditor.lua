@@ -30,12 +30,12 @@ function se.onShowTextDraw(id, data)
 		data.position.y = data.position.y - 9
 	end
 
-	if id == 2074 then -- your name
+	if id == 2075 then -- your name
 		data.position.x = data.position.x - 10
 		data.position.y = data.position.y - 9
 	end
 
-	if id == 2084 then -- reps/cheats
+	if id == 2085 then -- reps/cheats
 		data.position.y = data.position.y - 6
 	end
 
