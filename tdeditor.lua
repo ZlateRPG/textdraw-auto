@@ -39,27 +39,27 @@ function se.onShowTextDraw(id, data)
 		data.position.y = data.position.y - 6
 	end
 
-	if id == 2078 then -- wanted time
+	if id == 2081 then -- wanted time
 		data.position.y = data.position.y - 44
 		data.position.x = data.position.x + 23
 	end
 	
-	if id == 2066 then -- viteza
+	if id == 2069 then -- viteza
 		data.position.x = data.position.x + 200
 		data.position.y = data.position.y - 0
 	end
 	
-	if id == 2067 then -- km/h text
+	if id == 2070 then -- km/h text
 		data.position.x = data.position.x + 87
 		data.position.y = data.position.y - 0
 	end
 
-	if id == 289 then -- faction duty
+	if id == 292 then -- faction duty
 		data.position.x = data.position.x + 55
 		data.position.y = data.position.y - 0
 	end
 	
-	if id == 2065 then -- odometer
+	if id == 2068 then -- odometer
 		data.position.x = data.position.x + 50
 		data.position.y = data.position.y - 15
 		data.letterHeight = data.letterHeight / 1.09
@@ -67,7 +67,7 @@ function se.onShowTextDraw(id, data)
 		data.style = 1
 	end
 
-	if id == 2092 then -- nume masina
+	if id == 2095 then -- nume masina
 		data.letterHeight = data.letterHeight / 1.09
 		data.letterWidth = data.letterWidth / 1.09
 		data.style = 0
