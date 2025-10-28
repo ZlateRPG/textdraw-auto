@@ -10,27 +10,27 @@ end
 
 
 function se.onShowTextDraw(id, data)
-	if id == 124 then -- data
+	if id == 257 then -- data
 		data.position.x = data.position.x - 500
 		data.position.y = data.position.y - 900
 	end
 
-	if id == 123 then -- ora
+	if id == 256 then -- ora
 		data.position.x = data.position.x - 500
 		data.position.y = data.position.y - 900
 	end
 
-	if id == 122 then -- seconds
+	if id == 255 then -- seconds
 		data.position.x = data.position.x - 500
 		data.position.y = data.position.y - 900
 	end
 
-	if id == 134 then -- server name
+	if id == 266 then -- server name
 		data.position.x = data.position.x - 10
 		data.position.y = data.position.y - 9
 	end
 
-	if id == 2096 then -- your name
+	if id == 2115 then -- your name
 		data.position.x = data.position.x - 10
 		data.position.y = data.position.y - 9
 	end
@@ -44,12 +44,12 @@ function se.onShowTextDraw(id, data)
 		data.position.x = data.position.x + 23
 	end
 	
-	if id == 2091 then -- viteza
+	if id == 2110 then -- viteza
 		data.position.x = data.position.x + 200
 		data.position.y = data.position.y - 0
 	end
 	
-	if id == 2092 then -- km/h text
+	if id == 2111 then -- km/h text
 		data.position.x = data.position.x + 87
 		data.position.y = data.position.y - 0
 	end
@@ -59,7 +59,7 @@ function se.onShowTextDraw(id, data)
 		data.position.y = data.position.y - 0
 	end
 	
-	if id == 2090 then -- odometer
+	if id == 2109 then -- odometer
 		data.position.x = data.position.x + 50
 		data.position.y = data.position.y - 15
 		data.letterHeight = data.letterHeight / 1.09
