@@ -67,10 +67,8 @@ function se.onShowTextDraw(id, data)
 		data.style = 1
 	end
 
-	if id == 2117 then -- nume masina
-		data.letterHeight = data.letterHeight / 1.09
-		data.letterWidth = data.letterWidth / 1.09
-		data.style = 0
+	if id == 2116 then -- secunde jucate last payday
+		data.position.y = data.position.y - 10
 	end
 
 	return {id, data}
